@@ -8,7 +8,7 @@
  * e laranja/coral (amor/calor humano)
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700;800&display=swap');
 
 @layer base {
   :root {
@@ -75,7 +75,7 @@
     --sombra-elevada: 0 20px 50px -12px hsl(220 15% 20% / 0.2);
 
     /* Tipografia */
-    --fonte-titulo: 'Playfair Display', Georgia, serif;
+    --fonte-titulo: 'Quicksand', 'Nunito', sans-serif;
     --fonte-corpo: 'Nunito', system-ui, sans-serif;
 
     /* Sidebar (mantendo compatibilidade) */
