@@ -1,14 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700;800&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* 
- * Design System - Semeando Amor
- * Paleta baseada na logo da ONG: tons de verde (crescimento/natureza) 
- * e laranja/coral (amor/calor humano)
- */
-
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700;800&display=swap');
 
 @layer base {
   :root {

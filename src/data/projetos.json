@@ -3,6 +3,11 @@
     "id": "projeto-educacao-infantil",
     "titulo": "Educação para o Futuro",
     "imagem": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800",
+    "imagens": [
+      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800",
+      "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800",
+      "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800"
+    ],
     "resumo": "Programa de apoio educacional para crianças em situação de vulnerabilidade social.",
     "conteudo": "O projeto Educação para o Futuro nasceu da necessidade de oferecer suporte educacional às crianças da nossa comunidade. Através de atividades de reforço escolar, oficinas de leitura e acompanhamento pedagógico, buscamos garantir que cada criança tenha a oportunidade de desenvolver todo o seu potencial.\n\nNossas atividades incluem:\n\n• Reforço escolar em português e matemática\n• Oficinas de leitura e escrita criativa\n• Atividades lúdicas e educativas\n• Acompanhamento individual do desenvolvimento\n\nAcreditamos que a educação é a semente que plantamos hoje para colher um futuro melhor amanhã."
   },

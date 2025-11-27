@@ -1,18 +1,12 @@
 import { Projeto } from "@/types/projeto";
 import projetosData from "@/data/projetos.json";
 
-/**
- * Serviço de Projetos
- * Gerencia a busca e manipulação dos dados de projetos
- * Pode ser facilmente substituído por uma API real no futuro
- */
+
+
 
 // Simula um pequeno delay para parecer uma chamada de API
 const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
-/**
- * Busca todos os projetos
- */
 export const buscarTodosProjetos = async (): Promise<Projeto[]> => {
   await delay(100);
   return projetosData as Projeto[];
