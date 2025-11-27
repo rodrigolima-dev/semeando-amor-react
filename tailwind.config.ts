@@ -83,7 +83,7 @@ export default {
         },
       },
       fontFamily: {
-        titulo: ["Playfair Display", "Georgia", "serif"],
+        titulo: ["Quicksand", "Nunito", "sans-serif"],
         corpo: ["Nunito", "system-ui", "sans-serif"],
       },
       borderRadius: {
