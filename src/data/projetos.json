@@ -1,35 +1,103 @@
 [
   {
-    "id": "projeto-educacao-infantil",
-    "titulo": "Educação para o Futuro",
-    "imagem": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800",
+    "id": "curso-gastronomia-sustentavel",
+    "titulo": "Curso de Gastronomia Sustentável",
+    "imagem": "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/gastronomiacurso.jpg",
     "imagens": [
-      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800",
-      "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800",
-      "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800"
+      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/gastronomiacurso.jpg",
+      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/gastronomiacurso2.jpg",
+      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/gastronomiacurso3.jpg",
+      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/gastronomiacurso4.jpg"
     ],
-    "resumo": "Programa de apoio educacional para crianças em situação de vulnerabilidade social.",
-    "conteudo": "O projeto Educação para o Futuro nasceu da necessidade de oferecer suporte educacional às crianças da nossa comunidade. Através de atividades de reforço escolar, oficinas de leitura e acompanhamento pedagógico, buscamos garantir que cada criança tenha a oportunidade de desenvolver todo o seu potencial.\n\nNossas atividades incluem:\n\n• Reforço escolar em português e matemática\n• Oficinas de leitura e escrita criativa\n• Atividades lúdicas e educativas\n• Acompanhamento individual do desenvolvimento\n\nAcreditamos que a educação é a semente que plantamos hoje para colher um futuro melhor amanhã."
+    "resumo": "Curso completo com duração superior a um ano, focado em alimentação sustentável.",
+    "conteudo": "Criado para capacitar moradores da comunidade, o curso conta com aulas ministradas por uma professora e chef especializada. Durante mais de um ano, os alunos aprendem técnicas de gastronomia sustentável e aproveitamento total dos alimentos, ampliando oportunidades de geração de renda."
+  },
+
+  {
+    "id": "navezinha-carioca",
+    "titulo": "A Navezinha do Conhecimento chegou em Rio das Pedras",
+    "imagem": "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/navezinhacarioca.png",
+    "imagens": [
+      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/navezinhaantiracista.png",
+      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/valorantnavezinha.png"
+    ],
+    "resumo": "Que dia incrível, senhoras e senhores, que dia!",
+    "conteudo": "A Navezinha do Conhecimento, um projeto inovador que visa levar educação e cultura para comunidades carentes, fez sua estreia em Rio das Pedras. Com uma programação repleta de atividades educativas, culturais e recreativas, a Navezinha promete transformar vidas e abrir portas para um futuro melhor.\n\nDurante o evento de lançamento, crianças e adultos tiveram a oportunidade de participar de oficinas de arte, sessões de leitura, atividades esportivas e muito mais. A presença da Navezinha trouxe um clima de alegria e esperança para a comunidade, que recebeu o projeto com entusiasmo e gratidão.\n\nA iniciativa é fruto de uma parceria entre diversas organizações sociais, que acreditam no poder da educação como ferramenta de transformação social. A Navezinha do Conhecimento continuará sua jornada por Rio das Pedras, oferecendo oportunidades de aprendizado e crescimento para todos que desejam embarcar nessa aventura do saber.\n\nFique ligado nas próximas paradas da Navezinha e venha fazer parte dessa incrível jornada rumo ao conhecimento!"
+  }, 
+  {
+  "id": "horta-comunitaria",
+  "titulo": "Horta Comunitária",
+  "imagem": "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/hortasolidaria4.jpg",
+  "imagens": [
+    "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/hortasolidaria4.jpg",
+    "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/hortasolidaria.jpg",
+    "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/hortasolidaria2.jpg",
+    "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/hortasolidaria3.jpg"
+  ],
+  "resumo": "Espaço de cultivo que promove alimentação saudável, sustentabilidade e educação ambiental para a comunidade.",
+  "conteudo": "A Horta Comunitária é um espaço dedicado ao cultivo de alimentos frescos, utilizado tanto para complementar as ações de combate à fome quanto para ensinar práticas de plantio sustentável. A iniciativa envolve moradores da comunidade em atividades de cuidado, colheita e manutenção do espaço, fortalecendo a consciência ambiental e oferecendo acesso a alimentos naturais. A horta também serve como ambiente educativo para crianças e adultos, incentivando autonomia alimentar, sustentabilidade e conexão com a natureza."
   },
   {
-    "id": "projeto-alimentacao-solidaria",
-    "titulo": "Alimentação Solidária",
-    "imagem": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800",
-    "resumo": "Distribuição de cestas básicas e refeições para famílias em situação de vulnerabilidade.",
-    "conteudo": "O programa Alimentação Solidária é uma das nossas principais iniciativas de combate à fome. Toda semana, distribuímos cestas básicas e refeições nutritivas para famílias que enfrentam dificuldades.\n\nNosso trabalho inclui:\n\n• Distribuição semanal de cestas básicas\n• Preparação e entrega de refeições\n• Orientação nutricional para as famílias\n• Parcerias com produtores locais\n\nCada refeição compartilhada é um ato de amor que fortalece nossa comunidade."
+  "id": "jovens-construtores",
+  "titulo": "Programa Jovens Construtores",
+  "imagem": "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/construtores6.jpg",
+  "imagens": [
+    "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/construtores6.jpg",
+    "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/consturtores.jpg",
+    "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/construtores5.jpg",
+    "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/construtores4.jpg",
+    "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/construtores3.jpg",
+    "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/construtores.jpg"
+  ],
+  "resumo": "Programa que oferece oficinas e orientação para jovens da comunidade, estimulando estudo, cidadania e acesso a oportunidades.",
+  "conteudo": "O Programa Jovens Construtores promove oficinas voltadas ao desenvolvimento pessoal e profissional de jovens da comunidade. Em encontros conduzidos por voluntários, como a oficina de RH com a Helaine (da Iguá), os participantes recebem orientação sobre oportunidades no mercado, comportamento profissional e caminhos possíveis para seu crescimento. Uma mensagem central reforçada no programa é a importância de continuar estudando e concluir o ensino médio, fortalecendo o futuro dos jovens através da educação e da informação."
   },
   {
-    "id": "projeto-capacitacao-profissional",
-    "titulo": "Capacitação Profissional",
-    "imagem": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800",
-    "resumo": "Cursos e workshops para qualificação profissional de jovens e adultos.",
-    "conteudo": "O projeto Capacitação Profissional oferece cursos gratuitos para jovens e adultos que buscam se qualificar para o mercado de trabalho. Nosso objetivo é proporcionar ferramentas para a independência financeira e realização pessoal.\n\nCursos oferecidos:\n\n• Informática básica e avançada\n• Administração e empreendedorismo\n• Artesanato e economia criativa\n• Comunicação e expressão\n\nInvestir em capacitação é semear oportunidades para colher dignidade."
+  "id": "oleo-solidario",
+  "titulo": "Óleo Solidário",
+  "imagem": "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/oleoslidario.jpg",
+  "imagens": [
+    "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/oleoslidario.jpg",
+    "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/oleoslidario2.jpg",
+    "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/oleoslidario3.jpg",
+    "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/oleoslidario44.jpg"
+  ],
+  "resumo": "Coleta de óleo usado para reduzir a contaminação das águas e proteger o meio ambiente.",
+  "conteudo": "O projeto Óleo Solidário incentiva moradores a descartarem corretamente o óleo de cozinha usado, evitando a contaminação da água e do solo. Além do impacto ambiental positivo, a iniciativa promove conscientização e fortalece práticas sustentáveis na comunidade."
+  },
+
+  {
+    "id": "doacao-de-legumes",
+    "titulo": "Doação de Legumes",
+    "imagem": "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/doacaolegumes.jpg",
+    "resumo": "Distribuição semanal de legumes para famílias em situação de vulnerabilidade.",
+    "conteudo": "Em parceria com um hortifruti local, o Semeando Amor realiza semanalmente a doação de legumes para o público mais vulnerável da comunidade. Essa ação garante que famílias em situação de extrema pobreza tenham acesso a alimentos frescos e nutritivos."
+  },
+
+
+  {
+    "id": "cozinha-sustentavel",
+    "titulo": "Cozinha Sustentável",
+    "imagem": "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/cozinhasustentavel1.jpg",
+    "imagens": [
+      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/cozinhasustentavel1.jpg",
+      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/cozinhasustentavel2.jpg",
+      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/cozinhasustentavel3.jpg",
+      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/cozinhasustentavel4.jpg"
+    ],
+    "resumo": "Preparação de refeições nutritivas utilizando a cozinha equipada da instituição.",
+    "conteudo": "A Cozinha Sustentável é utilizada diariamente para preparar alimentos destinados aos beneficiários do projeto. Além de oferecer refeições, o espaço é um ambiente de ensino onde são aplicadas técnicas de aproveitamento integral, incentivando práticas alimentares mais saudáveis e acessíveis."
   },
   {
-    "id": "projeto-acolhimento-familiar",
-    "titulo": "Acolhimento Familiar",
-    "imagem": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800",
-    "resumo": "Suporte emocional e social para famílias em momentos de dificuldade.",
-    "conteudo": "O Acolhimento Familiar é um programa dedicado a oferecer suporte integral às famílias da nossa comunidade. Através de atendimento psicológico, assistência social e grupos de apoio, ajudamos as famílias a superarem seus desafios.\n\nServiços oferecidos:\n\n• Atendimento psicológico individual e familiar\n• Grupos de apoio e convivência\n• Orientação social e jurídica\n• Visitas domiciliares\n\nAcreditamos que uma família fortalecida é a base para uma comunidade mais unida."
+    "id": "oficinas-profissionalizantes",
+    "titulo": "Oficinas de Educação Profissional",
+    "imagem": "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/oficinaeducativa.jpg",
+    "imagens": [
+      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/oficinaeducativa.jpg",
+      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/oficinaeducativa2.jpg"
+    ],
+    "resumo": "Capacitação de mulheres para gerar renda de forma independente.",
+    "conteudo": "Voltado para mulheres em situação de vulnerabilidade, o projeto oferece cursos práticos nas áreas de manicure e pedicure. Além da parte técnica, as participantes recebem orientação sobre atendimento, organização do material de trabalho e caminhos para conquistar independência financeira."
   }
+
 ]

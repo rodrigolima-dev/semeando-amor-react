@@ -8,6 +8,11 @@ import ShapesDecorativos from "@/components/comum/ShapesDecorativos";
 import Botao from "@/components/comum/Botao";
 import { useProjetosDestaque } from "@/hooks/useProjetos";
 
+//Vídeos
+import videoMP4 from "@/assets/videoprincipal.mp4";
+import videoWEBM from "@/assets/videoprincipal.webm";
+
+
 /**
  * Página Inicial (Home)
  * Landing page principal do site Semeando Amor
@@ -41,8 +46,8 @@ const pilares = [
 const estatisticas = [
   { numero: "500+", label: "Famílias Atendidas" },
   { numero: "1.200+", label: "Crianças Beneficiadas" },
-  { numero: "50+", label: "Voluntários Ativos" },
-  { numero: "15", label: "Anos de História" },
+  { numero: "30+", label: "Voluntários Ativos" },
+  { numero: "23+", label: "Anos de História" },
 ];
 
 const PaginaInicial = () => {
@@ -50,38 +55,64 @@ const PaginaInicial = () => {
 
   return (
     <Layout>
-      {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradiente-suave">
-        <ShapesDecorativos variante="hero" />
+       {/* Hero Section com vídeo de fundo */}
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+        {/* Vídeo de fundo */}
+        <video
+        className="
+          absolute inset-0 w-full h-full object-cover
+          scale-[1.2]
+          [@media(max-width:762px)]:scale-[1.35]
+        "
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="metadata"
+        >
+          <source src={videoMP4} type="video/mp4" />
+          {/* fallback simples */}
+          Seu navegador não suporta vídeos em HTML5.
+        </video>
+
+        {/* Overlay para legibilidade do texto */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/10 pointer-events-none" />
+
+        {/* Shapes decorativos acima do vídeo, abaixo do conteúdo */}
+        <div className="absolute inset-0 pointer-events-none">
+          <ShapesDecorativos variante="hero" />
+        </div>
         
-        <div className="container mx-auto px-4 py-20 relative z-10">
-          <div className="max-w-4xl mx-auto text-center space-y-8">
+        {/* Conteúdo */}
+        <div className="container mx-auto px-5 py-20 relative z-10">
+          <div className="max-w-7xl mx-auto text-center space-y-8">
             <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
               className="inline-block px-4 py-2 bg-primaria/10 text-primaria rounded-full font-corpo font-semibold text-sm"
             >
-              🌱 Transformando vidas com amor
+              Transformando vidas com amor
             </motion.span>
 
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="font-titulo text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-tight"
+              className="font-titulo text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)] leading-tight"
             >
-              Plantamos{" "}
-              <span className="text-gradient">sementes de amor</span>
+              PLANTANDO AMOR E ESPERANÇA
               <br />
-              para colher esperança
+              NO NOSSO 
+              <br />
+              <span className="text-gradient">RIO DAS PEDRAS</span>
             </motion.h1>
 
             <motion.p
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="font-corpo text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed"
+              className="font-corpo text-lg md:text-xl text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)] max-w-2xl mx-auto leading-relaxed"
             >
               Somos uma organização dedicada a transformar realidades através da educação, 
               solidariedade e muito amor. Juntos, construímos um futuro melhor para nossa comunidade.
@@ -96,7 +127,6 @@ const PaginaInicial = () => {
               <Link to="/projetos">
                 <Botao variante="primario" tamanho="lg">
                   Conheça Nossos Projetos
-                  <ArrowRight size={20} />
                 </Botao>
               </Link>
               <Link to="/contato">
@@ -108,15 +138,20 @@ const PaginaInicial = () => {
           </div>
         </div>
 
-        {/* Wave decorativa */}
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full">
-            <path
-              d="M0 120L60 110C120 100 240 80 360 70C480 60 600 60 720 65C840 70 960 80 1080 85C1200 90 1320 90 1380 90L1440 90V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z"
-              className="fill-background"
-            />
-          </svg>
-        </div>
+        {/* Wave decorativa (continua por cima do vídeo, na base) */}
+       <div className="absolute bottom-0 left-0 right-0 z-10 pointer-events-none">
+        <svg
+          viewBox="0 0 1440 120"
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-full h-[140px] block -mb-1"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0 120L60 110C120 100 240 80 360 70C480 60 600 60 720 65C840 70 960 80 1080 85C1200 90 1320 90 1380 90L1440 90V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z"
+            className="fill-background"
+          />
+        </svg>
+      </div>
       </section>
 
       {/* Seção Pilares */}
@@ -192,7 +227,7 @@ const PaginaInicial = () => {
           <SecaoTitulo
             subtitulo="Nossos Projetos"
             titulo="Conheça nossas iniciativas"
-            descricao="Cada projeto é uma semente plantada com carinho, dedicação e a esperança de um futuro melhor."
+            descricao="Cada projeto é uma semente plantada com carinho, dedicação e a esperança de um futuro melhor pro nosso Rio das Pedras."
           />
 
           {isLoading ? (

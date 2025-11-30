@@ -12,29 +12,59 @@ import ShapesDecorativos from "@/components/comum/ShapesDecorativos";
 // Timeline da história (placeholder)
 const timeline = [
   {
-    ano: "2009",
-    titulo: "O Início",
-    descricao: "Um grupo de amigos decidiu fazer a diferença em sua comunidade, dando início à Semeando Amor.",
+    ano: "Década de 1990 (estimado)",
+    titulo: "As Ações de Dona Braulice Runco",
+    descricao:
+      "Antes da formalização do projeto, Dona Braulice Runco, mulher de condição financeira privilegiada, dedicou sua vida a ajudar famílias da comunidade. Construíu mais de 30 casas para moradores que viviam em barracos de madeira no Rio das Pedras, tornando-se a grande inspiração e base humana do que futuramente se tornaria o Semeando Amor.",
   },
+
   {
-    ano: "2012",
-    titulo: "Primeira Sede",
-    descricao: "Inauguramos nossa primeira sede, um espaço dedicado às atividades com crianças e famílias.",
+    ano: "2002",
+    titulo: "Início do Projeto Comunitário",
+    descricao:
+      "O projeto Semeando Amor nasce oficialmente na comunidade Rio das Pedras, com o propósito de melhorar a vida dos moradores, inspirado no legado de solidariedade de Dona Braulice. A atuação começa com foco em alimentação saudável, combate à fome, assistência social e apoio às famílias mais vulneráveis.",
   },
+
   {
-    ano: "2016",
-    titulo: "Expansão",
-    descricao: "Ampliamos nossos projetos para atender mais comunidades na região metropolitana.",
+    ano: "2002–2019",
+    titulo: "Expansão das Ações de Apoio Social",
+    descricao:
+      "O Semeando Amor fortalece suas iniciativas: distribuição de alimentos, cozinha sustentável, oficinas educativas, apoio a idosos, pessoas com deficiência e famílias em extrema vulnerabilidade.",
   },
+
   {
     ano: "2020",
     titulo: "Resposta à Pandemia",
-    descricao: "Mobilizamos recursos para ajudar famílias afetadas pela crise sanitária.",
+    descricao:
+      "Com o impacto da pandemia, o projeto cria turmas de reforço escolar e alfabetização para crianças prejudicadas no ensino remoto, oferecendo aulas semanais e lanches nutritivos preparados na própria instituição.",
   },
+
   {
-    ano: "2024",
-    titulo: "Novos Horizontes",
-    descricao: "Celebramos 15 anos de história com novos projetos e parcerias estratégicas.",
+    ano: "2020–2021",
+    titulo: "Ações Comunitárias para Crianças",
+    descricao:
+      "O projeto organiza eventos como Dia das Crianças e Natal, com brincadeiras, caça ao tesouro, entrega de brinquedos e apadrinhamento de famílias — fortalecendo o vínculo entre comunidade e instituição.",
+  },
+
+  {
+    ano: "2021",
+    titulo: "Curso de Gastronomia Sustentável",
+    descricao:
+      "É criado um curso completo, com duração superior a um ano, ensinando técnicas de aproveitamento integral dos alimentos e preparando moradores para geração de renda. (PDF)",
+  },
+
+  {
+    ano: "2021–2022",
+    titulo: "Oficinas de Profissionalização",
+    descricao:
+      "O Semeando Amor inicia oficinas para capacitar mulheres da comunidade em manicure e pedicure, oferecendo treinamento prático e orientação para independência financeira. (PDF)",
+  },
+
+  {
+    ano: "2022–2024",
+    titulo: "Atuação por Direitos e Combate à Pobreza",
+    descricao:
+      "O projeto passa a integrar ações voltadas à promoção de direitos e defesa da renda básica universal, reforçando que erradicar a fome exige políticas de geração de emprego e dignidade. (PDF)",
   },
 ];
 
@@ -99,29 +129,41 @@ const PaginaQuemSomos = () => {
             >
               <SecaoTitulo
                 subtitulo="Nossa História"
-                titulo="15 anos semeando esperança"
+                titulo="Mais de 23 anos semeando esperança"
                 alinhamento="left"
                 className="mb-0"
               />
               
               <div className="space-y-4 font-corpo text-muted-foreground leading-relaxed">
                 <p>
-                  A Semeando Amor nasceu em 2009, quando um pequeno grupo de amigos decidiu 
-                  transformar a indignação diante das desigualdades em ação concreta. O que 
-                  começou como uma iniciativa modesta de distribuição de alimentos, rapidamente 
-                  se transformou em um movimento de transformação social.
+                  A trajetória do Semeando Amor tem origem no trabalho dedicado de Dona Braulice Runco, a “Vózinha”, 
+                  que por muitos anos ajudou famílias da comunidade de Rio das Pedras. Com enorme generosidade, 
+                  ela construiu mais de 30 casas para moradores que viviam em barracos de madeira e se tornou 
+                  referência de solidariedade e cuidado com o próximo. Seu exemplo inspirou a continuidade do trabalho 
+                  social que, em 2002, passou a ser organizado sob o nome Semeando Amor.
                 </p>
+
                 <p>
-                  Ao longo dos anos, expandimos nossas atividades para incluir educação, 
-                  capacitação profissional e apoio familiar. Hoje, somos uma referência em 
-                  nossa comunidade, impactando positivamente milhares de vidas.
+                  Desde então, o projeto atua para melhorar a qualidade de vida dos moradores da região, 
+                  especialmente na área mais vulnerável da comunidade. As iniciativas incluem combate à fome, 
+                  educação alimentar sustentável, distribuição de alimentos, assistência social e apoio a famílias 
+                  em extrema vulnerabilidade — com atenção especial a idosos, pessoas com deficiência e crianças.
                 </p>
+
                 <p>
-                  Nossa força vem das pessoas: voluntários dedicados, parceiros comprometidos 
-                  e, principalmente, das famílias que confiam em nosso trabalho. Juntos, 
-                  provamos que é possível construir um mundo mais justo e amoroso.
+                  Durante a pandemia, o Semeando Amor identificou prejuízos no aprendizado de crianças de baixa renda 
+                  e criou turmas de reforço escolar com apoio de voluntários. As aulas semanais atendem grupos pequenos 
+                  e oferecem lanches nutritivos preparados na própria cozinha do projeto.
+                </p>
+
+                <p>
+                  O projeto também realiza ações que fortalecem o vínculo com a comunidade, como festas do Dia das 
+                  Crianças e Natal, atividades educativas e oficinas que ensinam práticas de alimentação saudável. 
+                  Cada iniciativa mantém vivo o legado de Dona Braulice — um compromisso permanente com a solidariedade, 
+                  o acolhimento e o amor ao próximo.
                 </p>
               </div>
+
             </motion.div>
 
             <motion.div
@@ -132,12 +174,12 @@ const PaginaQuemSomos = () => {
               className="relative"
             >
               <img
-                src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800"
+                src="https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/vobraulice.jpeg"
                 alt="Equipe Semeando Amor em ação"
                 className="rounded-2xl shadow-elevada w-full h-[400px] object-cover"
               />
               <div className="absolute -bottom-6 -left-6 bg-primaria text-primaria-foreground p-6 rounded-2xl shadow-lg">
-                <div className="font-titulo text-4xl font-bold">15+</div>
+                <div className="font-titulo text-4xl font-bold">23+</div>
                 <div className="font-corpo text-sm">Anos de história</div>
               </div>
             </motion.div>
@@ -171,8 +213,7 @@ const PaginaQuemSomos = () => {
                 Missão
               </h3>
               <p className="font-corpo text-muted-foreground leading-relaxed">
-                Transformar vidas através de ações sociais que promovam educação, 
-                dignidade e oportunidades para famílias em situação de vulnerabilidade.
+                Promover o direito à alimentação saudável, assim como o acesso a emprego e renda, atuando nas frentes de combate à fome, educação para alimentação sustentável, assistência social e empregabilidade.
               </p>
             </motion.div>
 
@@ -191,8 +232,7 @@ const PaginaQuemSomos = () => {
                 Visão
               </h3>
               <p className="font-corpo text-muted-foreground leading-relaxed">
-                Ser referência em transformação social, construindo comunidades mais 
-                justas, onde todos tenham acesso a oportunidades de desenvolvimento.
+                Melhorar a vida dos moradores da comunidade Rio das Pedras através de ações contínuas de apoio social, educação, alimentação e profissionalização desses moradores.
               </p>
             </motion.div>
 

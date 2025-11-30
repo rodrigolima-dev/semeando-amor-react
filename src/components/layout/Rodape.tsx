@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Heart, Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
+import { Heart, Mail, Phone, MapPin, Facebook, Instagram } from "lucide-react";
 import logoSemeando from "@/assets/logo-semeando.jfif";
 
 /**
@@ -34,25 +34,20 @@ const Rodape = () => {
             {/* Redes Sociais */}
             <div className="flex gap-4 pt-4">
               <a
-                href="#"
+                href="https://www.facebook.com/share/1LrV5zUpaF/?mibextid=wwXIfr"
                 className="p-2 bg-background/10 rounded-full hover:bg-background/20 transition-colors"
+                target="_blank"
                 aria-label="Facebook"
               >
                 <Facebook size={20} />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/projetosocialsemeandoamor?igsh=MWt5MmVmY3MwMWZkbQ%3D%3D&utm_source=qr"
                 className="p-2 bg-background/10 rounded-full hover:bg-background/20 transition-colors"
+                target="_blank"
                 aria-label="Instagram"
               >
                 <Instagram size={20} />
-              </a>
-              <a
-                href="#"
-                className="p-2 bg-background/10 rounded-full hover:bg-background/20 transition-colors"
-                aria-label="LinkedIn"
-              >
-                <Linkedin size={20} />
               </a>
             </div>
           </div>
@@ -90,15 +85,15 @@ const Rodape = () => {
             <ul className="space-y-3 font-corpo text-sm">
               <li className="flex items-center gap-3 opacity-90">
                 <Mail size={18} />
-                <span>contato@semeandoamor.org.br</span>
+                <span>projetosocialsemeandoamor@gmail.com</span>
               </li>
               <li className="flex items-center gap-3 opacity-90">
                 <Phone size={18} />
-                <span>(11) 99999-9999</span>
+                <span>(21) 96429-0818</span>
               </li>
               <li className="flex items-start gap-3 opacity-90">
                 <MapPin size={18} className="flex-shrink-0 mt-1" />
-                <span>Rua da Esperança, 123<br />São Paulo - SP</span>
+                <span>R. Espada de São Jorge, 405<br />Areal - Rio das Pedras - RJ</span>
               </li>
             </ul>
           </div>

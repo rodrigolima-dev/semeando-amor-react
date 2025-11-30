@@ -262,10 +262,10 @@ const PaginaContato = () => {
                       E-mail
                     </h4>
                     <a
-                      href="mailto:contato@semeandoamor.org.br"
+                      href="mailto:projetosocialsemeandoamor@gmail.com"
                       className="font-corpo text-muted-foreground hover:text-primaria transition-colors"
                     >
-                      contato@semeandoamor.org.br
+                      projetosocialsemeandoamor@gmail.com
                     </a>
                   </div>
                 </div>
@@ -279,10 +279,10 @@ const PaginaContato = () => {
                       Telefone
                     </h4>
                     <a
-                      href="tel:+5511999999999"
+                      href="tel:+5521964290818"
                       className="font-corpo text-muted-foreground hover:text-primaria transition-colors"
                     >
-                      (11) 99999-9999
+                      (21) 96429-0818
                     </a>
                   </div>
                 </div>
@@ -296,9 +296,9 @@ const PaginaContato = () => {
                       Endereço
                     </h4>
                     <p className="font-corpo text-muted-foreground">
-                      Rua da Esperança, 123<br />
-                      Bairro Solidariedade<br />
-                      São Paulo - SP, 00000-000
+                      R. Espada de São Jorge, 405<br />
+                      Areal - Rio das Pedras<br />
+                      Rio de Janeiro - RJ, 22641-512
                     </p>
                   </div>
                 </div>
@@ -310,8 +310,8 @@ const PaginaContato = () => {
                   Horário de Atendimento
                 </h4>
                 <div className="font-corpo text-muted-foreground space-y-1">
-                  <p>Segunda a Sexta: 8h às 18h</p>
-                  <p>Sábado: 8h às 12h</p>
+                  <p>Segunda a Sexta: 9h às 17h</p>
+                  <p>Sábado: Fechado</p>
                   <p>Domingo: Fechado</p>
                 </div>
               </div>
@@ -320,18 +320,6 @@ const PaginaContato = () => {
         </div>
       </section>
 
-      {/* Mapa (placeholder) */}
-      <section className="h-[400px] bg-muted relative">
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center">
-            <MapPin size={48} className="text-primaria mx-auto mb-4" />
-            <p className="font-corpo text-muted-foreground">
-              Mapa será integrado aqui<br />
-              (Google Maps ou similar)
-            </p>
-          </div>
-        </div>
-      </section>
     </Layout>
   );
 };

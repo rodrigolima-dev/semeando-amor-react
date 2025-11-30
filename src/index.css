@@ -233,3 +233,10 @@
     transform: scale(1.05);
   }
 }
+
+@media (max-width: 762px) {
+  .video-zoom-762 {
+    transform: scale(1.35) !important;
+  }
+}
+
