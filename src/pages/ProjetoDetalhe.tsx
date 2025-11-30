@@ -187,7 +187,7 @@ const PaginaProjetoDetalhe = () => {
                     key={imagens[indiceAtual]}
                     src={imagens[indiceAtual]}
                     alt={`${projeto.titulo} - imagem ${indiceAtual + 1}`}
-                    className="w-full h-72 md:h-96 object-cover"
+                    className="w-full h-92 md:h-120 object-cover"
                     initial={{ opacity: 0, scale: 1.02 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.4 }}

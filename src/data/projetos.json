@@ -18,8 +18,8 @@
     "titulo": "A Navezinha do Conhecimento chegou em Rio das Pedras",
     "imagem": "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/navezinhacarioca.png",
     "imagens": [
-      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/navezinhaantiracista.png",
-      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/valorantnavezinha.png"
+      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/navezinhaftoo2.png",
+      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/fotonavezinha.png"
     ],
     "resumo": "Que dia incrível, senhoras e senhores, que dia!",
     "conteudo": "A Navezinha do Conhecimento, um projeto inovador que visa levar educação e cultura para comunidades carentes, fez sua estreia em Rio das Pedras. Com uma programação repleta de atividades educativas, culturais e recreativas, a Navezinha promete transformar vidas e abrir portas para um futuro melhor.\n\nDurante o evento de lançamento, crianças e adultos tiveram a oportunidade de participar de oficinas de arte, sessões de leitura, atividades esportivas e muito mais. A presença da Navezinha trouxe um clima de alegria e esperança para a comunidade, que recebeu o projeto com entusiasmo e gratidão.\n\nA iniciativa é fruto de uma parceria entre diversas organizações sociais, que acreditam no poder da educação como ferramenta de transformação social. A Navezinha do Conhecimento continuará sua jornada por Rio das Pedras, oferecendo oportunidades de aprendizado e crescimento para todos que desejam embarcar nessa aventura do saber.\n\nFique ligado nas próximas paradas da Navezinha e venha fazer parte dessa incrível jornada rumo ao conhecimento!"
@@ -98,6 +98,19 @@
     ],
     "resumo": "Capacitação de mulheres para gerar renda de forma independente.",
     "conteudo": "Voltado para mulheres em situação de vulnerabilidade, o projeto oferece cursos práticos nas áreas de manicure e pedicure. Além da parte técnica, as participantes recebem orientação sobre atendimento, organização do material de trabalho e caminhos para conquistar independência financeira."
+  },
+    {
+    "id": "agentes-populares-agpopsus",
+    "titulo": "Agentes Populares (AgPopSUS)",
+    "imagem": "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/agpopsus5.jpeg",
+    "imagens": [
+      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/agpopsus4.jpeg",
+      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/agpopsus3.jpeg",
+      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/agpopsus2.jpeg",
+      "https://odnuwqoevzorskzfzcgv.supabase.co/storage/v1/object/public/semeandoamor/agpopsus1.jpeg"
+    ],
+    "resumo": "Educação Popular em Saúde para formação de Agentes Populares de Saúde.",
+    "conteudo": "O Programa de Formação de Agentes Educadores e Educadoras Populares de Saúde (AgPopSUS) é uma iniciativa do Ministério da Saúde, ancorada na Política Nacional de Educação Popular em Saúde (PNEPS-SUS). Contribuir para a atuação dos movimentos sociais e populares na defesa do Sistema Único de Saúde (SUS) e do direito à saúde é o principal objetivo do programa, que busca fortalecer o protagonismo popular e a articulação de saberes nos territórios. Os agentes de Educação Popular em Saúde atuam em defesa do SUS nas comunidades em que vivem, contribuindo com trabalhadores e trabalhadoras da equipe de saúde da família, a partir do incentivo à participação da população nos conselhos locais de saúde, no combate à desinformação e na promoção de ações para potencializar o acesso à saúde."
   }
 
 ]

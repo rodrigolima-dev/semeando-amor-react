@@ -309,47 +309,6 @@ const PaginaQuemSomos = () => {
           </div>
         </div>
       </section>
-
-      {/* Equipe */}
-      <section className="py-20 bg-creme relative">
-        <ShapesDecorativos variante="simples" />
-
-        <div className="container mx-auto px-4 relative z-10">
-          <SecaoTitulo
-            subtitulo="Nossa Equipe"
-            titulo="Pessoas que fazem acontecer"
-            descricao="Conheça os rostos por trás da transformação social que promovemos diariamente."
-          />
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {equipe.map((membro, index) => (
-              <motion.div
-                key={membro.nome}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="group text-center"
-              >
-                <div className="relative mb-4 overflow-hidden rounded-2xl">
-                  <img
-                    src={membro.foto}
-                    alt={membro.nome}
-                    className="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-primaria/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                </div>
-                <h3 className="font-titulo text-lg font-semibold text-foreground">
-                  {membro.nome}
-                </h3>
-                <p className="font-corpo text-sm text-muted-foreground">
-                  {membro.cargo}
-                </p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
     </Layout>
   );
 };

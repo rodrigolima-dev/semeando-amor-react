@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import { Heart, Mail, Phone, MapPin, Facebook, Instagram } from "lucide-react";
 import logoSemeando from "@/assets/logo-semeando.jfif";
+import { supabase } from "@/lib/supabaseClient";
+import { useState } from "react";
+
 
 /**
  * Componente Rodape
@@ -9,6 +12,31 @@ import logoSemeando from "@/assets/logo-semeando.jfif";
 
 const Rodape = () => {
   const anoAtual = new Date().getFullYear();
+  const [email, setEmail] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
+
+  const handleNewsletter = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (!email.trim()) return;
+
+    setLoading(true);
+
+    const { error } = await supabase.from("emails").insert([{ email }]);
+
+    setLoading(false);
+
+    if (!error) {
+      setSuccess(true);
+      setEmail("");
+      setTimeout(() => setSuccess(false), 5000);
+    } else {
+      console.error(error);
+    }
+  };
+
+
 
   return (
     <footer className="bg-primaria-escura text-primaria-foreground">
@@ -104,20 +132,25 @@ const Rodape = () => {
             <p className="font-corpo text-sm opacity-90">
               Receba novidades e histórias inspiradoras diretamente no seu e-mail.
             </p>
-            <form className="space-y-3" onSubmit={(e) => e.preventDefault()}>
+           <form className="space-y-3" onSubmit={handleNewsletter}>
               <input
                 type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 placeholder="Seu melhor e-mail"
+                required
                 className="w-full px-4 py-3 rounded-lg bg-background/10 border border-background/20 
-                         text-primaria-foreground placeholder:text-primaria-foreground/60
-                         focus:outline-none focus:border-background/40 transition-colors"
+                          text-primaria-foreground placeholder:text-primaria-foreground/60
+                          focus:outline-none focus:border-background/40 transition-colors"
               />
+
               <button
                 type="submit"
+                disabled={loading}
                 className="w-full bg-secundaria hover:bg-secundaria-clara text-secundaria-foreground 
-                         px-4 py-3 rounded-lg font-semibold transition-colors"
+                          px-4 py-3 rounded-lg font-semibold transition-colors disabled:opacity-50"
               >
-                Inscrever-se
+                {loading ? "Enviando..." : success ? "Inscrito!" : "Inscrever-se"}
               </button>
             </form>
           </div>
