@@ -147,7 +147,7 @@ const PaginaQuemSomos = () => {
                   Desde então, o projeto atua para melhorar a qualidade de vida dos moradores da região, 
                   especialmente na área mais vulnerável da comunidade. As iniciativas incluem combate à fome, 
                   educação alimentar sustentável, distribuição de alimentos, assistência social e apoio a famílias 
-                  em extrema vulnerabilidade — com atenção especial a idosos, pessoas com deficiência e crianças.
+                  em extrema vulnerabilidade, com atenção especial a idosos, pessoas com deficiência e crianças.
                 </p>
 
                 <p>
@@ -159,7 +159,7 @@ const PaginaQuemSomos = () => {
                 <p>
                   O projeto também realiza ações que fortalecem o vínculo com a comunidade, como festas do Dia das 
                   Crianças e Natal, atividades educativas e oficinas que ensinam práticas de alimentação saudável. 
-                  Cada iniciativa mantém vivo o legado de Dona Braulice — um compromisso permanente com a solidariedade, 
+                  Cada iniciativa mantém vivo o legado de Dona Braulice, um compromisso permanente com a solidariedade, 
                   o acolhimento e o amor ao próximo.
                 </p>
               </div>
