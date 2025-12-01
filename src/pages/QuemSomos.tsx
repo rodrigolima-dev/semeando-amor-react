@@ -12,7 +12,7 @@ import ShapesDecorativos from "@/components/comum/ShapesDecorativos";
 // Timeline da história (placeholder)
 const timeline = [
   {
-    ano: "Década de 1990 (estimado)",
+    ano: "Década de 1990",
     titulo: "As Ações de Dona Braulice Runco",
     descricao:
       "Antes da formalização do projeto, Dona Braulice Runco, mulher de condição financeira privilegiada, dedicou sua vida a ajudar famílias da comunidade. Construíu mais de 30 casas para moradores que viviam em barracos de madeira no Rio das Pedras, tornando-se a grande inspiração e base humana do que futuramente se tornaria o Semeando Amor.",
@@ -50,21 +50,21 @@ const timeline = [
     ano: "2021",
     titulo: "Curso de Gastronomia Sustentável",
     descricao:
-      "É criado um curso completo, com duração superior a um ano, ensinando técnicas de aproveitamento integral dos alimentos e preparando moradores para geração de renda. (PDF)",
+      "É criado um curso completo, com duração superior a um ano, ensinando técnicas de aproveitamento integral dos alimentos e preparando moradores para geração de renda.",
   },
 
   {
     ano: "2021–2022",
     titulo: "Oficinas de Profissionalização",
     descricao:
-      "O Semeando Amor inicia oficinas para capacitar mulheres da comunidade em manicure e pedicure, oferecendo treinamento prático e orientação para independência financeira. (PDF)",
+      "O Semeando Amor inicia oficinas para capacitar mulheres da comunidade em manicure e pedicure, oferecendo treinamento prático e orientação para independência financeira.",
   },
 
   {
     ano: "2022–2024",
     titulo: "Atuação por Direitos e Combate à Pobreza",
     descricao:
-      "O projeto passa a integrar ações voltadas à promoção de direitos e defesa da renda básica universal, reforçando que erradicar a fome exige políticas de geração de emprego e dignidade. (PDF)",
+      "O projeto passa a integrar ações voltadas à promoção de direitos e defesa da renda básica universal, reforçando que erradicar a fome exige políticas de geração de emprego e dignidade.",
   },
 ];
 
