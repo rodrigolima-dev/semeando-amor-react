@@ -117,7 +117,7 @@ const Rodape = () => {
               </li>
               <li className="flex items-center gap-3 opacity-90">
                 <Phone size={18} />
-                <span>(21) 96429-0818</span>
+                <span>(21) 97925-3568</span>
               </li>
               <li className="flex items-start gap-3 opacity-90">
                 <MapPin size={18} className="flex-shrink-0 mt-1" />

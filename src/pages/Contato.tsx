@@ -85,7 +85,7 @@ const PaginaContato = () => {
                     href="tel:+5521964290818"
                     className="font-corpo text-muted-foreground hover:text-primaria transition-colors"
                   >
-                    (21) 96429-0818
+                    (21) 97925-3568
                   </a>
                 </div>
               </div>
